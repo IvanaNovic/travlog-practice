@@ -1,0 +1,34 @@
+import React from "react";
+import logoImg from "../../../assets/logo.svg";
+import Hamburger from "./Hamburger";
+import Login from "./Login";
+import SignUp from "./SignUp";
+import SpecialDeals from "./SpecialDeals";
+import Discover from "./Discover";
+import Contact from "./Contact";
+import HomeHeader from "./HomeHeader";
+
+export default function Header() {
+  return (
+    <div className="w-full h-28 flex flex-row justify-between border py-1 px-4 items-center ">
+      <img
+        src={logoImg}
+        className="max-w-36 h-10  md:order-2 flex-1"
+        alt="logo"
+      />
+      <div className="lg:hidden md:order-1 flex-1 flex justify-end md:justify-start">
+        <Hamburger />
+      </div>
+      <div className="order-3 hidden md:flex flex-1 justify-end  ">
+        <Login />
+        <SignUp />
+      </div>
+      <div className="order-2  hidden lg:flex flex-1 justify-center text-neutral gap-16 border">
+        <HomeHeader />
+        <Discover />
+        <SpecialDeals />
+        <Contact />
+      </div>
+    </div>
+  );
+}
