@@ -1,5 +1,6 @@
 import { FC, ReactNode } from "react";
 import Header from "./header/Header";
+import Footer from "./footer/Footer";
 
 type LayoutProps = {
   children: ReactNode;
@@ -10,7 +11,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
     <>
       <Header />
       <main className="px-4 mx-auto ">{children}</main>
-      {/* <Footer/> */}
+      <Footer />
     </>
   );
 };

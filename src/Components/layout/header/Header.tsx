@@ -10,7 +10,7 @@ import HomeHeader from "./HomeHeader";
 
 export default function Header() {
   return (
-    <div className="w-full h-28 flex flex-row justify-between border py-1 px-4 items-center ">
+    <div className="w-full h-28 flex flex-row justify-between  py-1 px-4 items-center ">
       <div className=" flex-1 md:order-2">
         <img src={logoImg} className="max-w-36 h-10 " alt="logo" />
       </div>
@@ -21,7 +21,7 @@ export default function Header() {
         <Login />
         <SignUp />
       </div>
-      <div className="order-2  hidden lg:flex flex-1 justify-center text-neutral gap-16 border">
+      <div className="order-2  hidden lg:flex flex-1 justify-center text-neutral gap-16 text-sm">
         <HomeHeader />
         <Discover />
         <SpecialDeals />

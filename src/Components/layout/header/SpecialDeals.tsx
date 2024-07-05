@@ -1,7 +1,7 @@
 import React from "react";
 
 function SpecialDeals() {
-  return <button>SpecialDeals</button>;
+  return <button>Special Deals</button>;
 }
 
 export default SpecialDeals;
