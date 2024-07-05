@@ -9,6 +9,9 @@ export default {
       neutral: "#19182580",
       white: "#EEEEEE",
     },
+    fontFamily: {
+      roboto: ['"Roboto"', "sans-serif"],
+    },
   },
   plugins: [],
 };

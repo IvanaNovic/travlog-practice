@@ -3,11 +3,11 @@ import Home from "./Components/pages/Home";
 
 function App() {
   return (
-    <>
+    <main className="font-roboto">
       <Layout>
         <Home />
       </Layout>
-    </>
+    </main>
   );
 }
 

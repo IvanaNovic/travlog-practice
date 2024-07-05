@@ -1,5 +1,6 @@
 import React from "react";
 import logoImg from "../../../assets/logo.svg";
+import AdditionalLinks from "./AdditionalLinks";
 
 export default function Footer() {
   return (
@@ -9,7 +10,7 @@ export default function Footer() {
           <img src={logoImg} alt="Logo" />
         </div>
         <div>
-          <p>
+          <p className="text-neutral">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
             saepe suscipit quae excepturi eos non.
           </p>
@@ -17,9 +18,7 @@ export default function Footer() {
       </div>
       <div className="flex-1 border">
         <div className="flex flex-col md:flex-row lg:flex-row lg:justify-end">
-          <a href="#">Company</a>
-          <a href="#">Contact</a>
-          <a href="#">Meet Us</a>
+          <AdditionalLinks />
         </div>
       </div>
     </div>
