@@ -11,11 +11,9 @@ import HomeHeader from "./HomeHeader";
 export default function Header() {
   return (
     <div className="w-full h-28 flex flex-row justify-between border py-1 px-4 items-center ">
-      <img
-        src={logoImg}
-        className="max-w-36 h-10  md:order-2 flex-1"
-        alt="logo"
-      />
+      <div className=" flex-1 md:order-2">
+        <img src={logoImg} className="max-w-36 h-10 " alt="logo" />
+      </div>
       <div className="lg:hidden md:order-1 flex-1 flex justify-end md:justify-start">
         <Hamburger />
       </div>
