@@ -10,7 +10,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Header />
-      <main className="px-4 mx-auto ">{children}</main>
+      <div className="flex-1 px-4 mx-auto  ">{children}</div>
       <Footer />
     </>
   );

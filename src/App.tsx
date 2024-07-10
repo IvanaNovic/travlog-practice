@@ -3,7 +3,7 @@ import Home from "./Components/pages/Home";
 
 function App() {
   return (
-    <main className="font-roboto">
+    <main className="font-roboto flex flex-col min-h-screen">
       <Layout>
         <Home />
       </Layout>
