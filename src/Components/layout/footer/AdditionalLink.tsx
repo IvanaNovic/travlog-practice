@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import { FC, useState } from "react";
 import { additionalLinkDataType } from "../../../types/additionalLink";
 import arrowMoreDown from "../../../assets/arrowMoreDown.svg";
 import { useIsTablet } from "../../../hooks/useMediaQuery";

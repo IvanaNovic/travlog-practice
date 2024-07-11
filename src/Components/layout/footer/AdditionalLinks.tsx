@@ -1,4 +1,3 @@
-import React from "react";
 import AdditionalLink from "./AdditionalLink";
 import { additionalLinkDataType } from "../../../types/additionalLink";
 
