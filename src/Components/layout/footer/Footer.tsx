@@ -4,13 +4,13 @@ import SocialNetworks from "./SocialNetworks";
 
 export default function Footer() {
   return (
-    <footer className="flex gap-12 w-full px-4 py-4 flex-col md:flex-col lg:flex-row justify-between lg:items-center">
+    <footer className="flex xl:gap-8 w-full px-4 py-4 flex-col md:flex-col lg:flex-row justify-between lg:items-center">
       <div className="lg:w-1/2 mb-4 md:mb-4 lg:mb-0 ">
         <div className="mb-2">
           <img src={logoImg} alt="Logo" />
         </div>
         <div>
-          <p className="text-neutral">
+          <p className="text-neutral pb-2">
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC.
           </p>
