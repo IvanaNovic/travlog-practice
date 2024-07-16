@@ -4,7 +4,7 @@ import SocialNetworks from './SocialNetworks';
 
 export default function Footer() {
     return (
-        <footer className="flex w-full flex-col justify-between px-4 py-4 md:flex-col lg:flex-row lg:items-center xl:gap-8">
+        <footer className="mx-auto flex w-full max-w-[1400px] flex-col justify-between px-4 py-4 md:flex-col lg:flex-row lg:items-center xl:gap-8">
             <div className="mb-4 md:mb-4 lg:mb-0 lg:w-1/2">
                 <div className="mb-2">
                     <img src={logoImg} alt="Logo" />

@@ -10,7 +10,7 @@ import HomeHeader from './HomeHeader';
 
 export default function Header() {
     return (
-        <header className="flex h-28 w-full flex-row items-center justify-between px-4 py-1">
+        <header className="mx-auto flex h-28 w-full max-w-[1400px] flex-row items-center justify-between px-4 py-1">
             <div className="flex-1 md:order-2">
                 <img src={logoImg} className="h-10 max-w-36" alt="logo" />
             </div>
