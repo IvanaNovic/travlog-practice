@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 function Discover() {
-  return <button>Discover</button>;
+    return <button>Discover</button>;
 }
 
 export default Discover;

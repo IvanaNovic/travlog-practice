@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
 function SignUp() {
-  return (
-    <button className="bg-primary text-white rounded-full py-4 px-8 ">
-      SignUp
-    </button>
-  );
+    return (
+        <button className="rounded-full bg-primary px-8 py-4 text-gray-100">
+            SignUp
+        </button>
+    );
 }
 
 export default SignUp;

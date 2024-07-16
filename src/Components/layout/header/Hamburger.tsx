@@ -1,8 +1,8 @@
-import React from "react";
-import hamburgerIcon from "../../../assets/hamburger.svg";
+import React from 'react';
+import hamburgerIcon from '../../../assets/hamburger.svg';
 
 const Hamburger = () => {
-  return <img src={hamburgerIcon} />;
+    return <img src={hamburgerIcon} />;
 };
 
 export default Hamburger;
