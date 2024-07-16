@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 function HomeHeader() {
-  return <button>Home</button>;
+    return <button>Home</button>;
 }
 
 export default HomeHeader;
