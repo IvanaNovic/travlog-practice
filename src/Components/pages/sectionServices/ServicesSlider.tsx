@@ -1,4 +1,4 @@
-import Slider from 'react-slick';
+import Slider, { Settings } from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import tourGuideIcon from '../../../assets/tourGuideIcon.svg';
@@ -6,13 +6,16 @@ import easyBookingIcon from '../../../assets/easyBookingIcon.svg';
 import forecastIcon from '../../../assets/forecastIcon.svg';
 
 function ServicesSlider() {
-    const settings = {
+    const settings: Settings = {
         focusOnSelect: true,
         infinite: true,
-        centerMode: true,
         speed: 500,
+        autoplay: true,
         slidesToShow: 2,
         slidesToScroll: 1,
+        dots: true,
+        autoplaySpeed: 2000,
+        cssEase: 'ease',
     };
 
     const slides = [
@@ -39,7 +42,7 @@ function ServicesSlider() {
     return (
         <section className="lg:flex lg:flex-row">
             <div className="w-full px-4 lg:w-1/3">
-                <div className="flex flex-col py-56">
+                <div className="flex flex-col lg:py-56">
                     <p className="text-center text-base font-bold text-secondary md:text-2xl lg:text-start">
                         SERVICES
                     </p>
@@ -50,7 +53,7 @@ function ServicesSlider() {
             </div>
             <div className="w-full px-4 py-8 lg:w-2/3">
                 <div className="hidden lg:block">
-                    <Slider {...settings}>
+                    <Slider autoplay={true} {...settings}>
                         {slides.map((slide) => (
                             <div key={slide.id}>
                                 <div className="mx-4 my-8 flex h-[425px] flex-col justify-center gap-8 rounded-lg bg-white p-10 text-center shadow-lg">
