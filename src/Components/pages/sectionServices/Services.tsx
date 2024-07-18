@@ -1,9 +1,11 @@
-import React from 'react';
-
 import ServicesSlider from './ServicesSlider';
 
 function Services() {
-    return <ServicesSlider />;
+    return (
+        <div>
+            <ServicesSlider />
+        </div>
+    );
 }
 
 export default Services;
