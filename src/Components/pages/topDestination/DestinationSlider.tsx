@@ -34,8 +34,8 @@ function DestinationSlider() {
     };
 
     return (
-        <div className="w-full px-4 py-8">
-            <div className="flex justify-center gap-8 lg:justify-end lg:pr-4">
+        <div className="w-full py-8">
+            <div className="flex gap-8 lg:justify-end lg:pr-4">
                 <button
                     onClick={previous}
                     className="flex h-16 w-16 rotate-180 items-center justify-center rounded-full bg-primary">
@@ -49,14 +49,14 @@ function DestinationSlider() {
             </div>
             <Slider ref={sliderRef} {...settingsDestinationSlide}>
                 {slidesDestinations.map((slide) => (
-                    <div key={slide.id}>
-                        <div className="mx-4 my-8 flex h-[575px] flex-col gap-4 rounded-lg bg-white pb-0 shadow-lg">
+                    <div key={slide.id} className="w-full p-4">
+                        <div className="flex h-[575px] flex-col rounded-lg bg-white pb-0 shadow-lg">
                             <img
                                 src={slide.image}
                                 alt={slide.title}
                                 className="mx-auto h-full rounded-t-lg object-cover"
                             />
-                            <div className="flex h-full flex-col gap-16 p-4 lg:p-6">
+                            <div className="flex h-full flex-col gap-16 p-4 lg:p-8">
                                 <div className="flex flex-col lg:flex-row-reverse lg:gap-6">
                                     <h2 className="text-start text-lg font-bold text-secondary lg:text-end">
                                         {slide.price}

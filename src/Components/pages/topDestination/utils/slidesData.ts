@@ -33,7 +33,7 @@ export const slidesDestinations = [
         image: unitedArabEmirates,
         price: '$150.99',
         title: 'Mountain View, Above the cloud',
-        destination: 'United Arab Emeries ',
+        destination: 'United Arab Emirates ',
         rating: '5.0',
     },
     {
