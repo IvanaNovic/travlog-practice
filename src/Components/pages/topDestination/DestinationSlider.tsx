@@ -1,77 +1,19 @@
-import Slider, { Settings } from 'react-slick';
+import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import romeItaly from './../../../assets/RomeItaly.svg';
-import maldives from './../../../assets/Maldives.svg';
-import unitedArabEmirates from './../../../assets/UnitedArabEmirates.svg';
 import ratingStar from './../../../assets/ratingStar.svg';
+import {
+    settingsDestinationSlide,
+    slidesDestinations,
+} from './utils/slidesData';
 
 function DestinationSlider() {
-    const settings: Settings = {
-        focusOnSelect: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-    };
-
-    const slides = [
-        {
-            id: 1,
-            image: romeItaly,
-            price: '$550.16',
-            title: 'Paradise Beach, Bantayan Island',
-            destination: 'Rome, Italy',
-            rating: '4.8',
-        },
-        {
-            id: 2,
-            image: maldives,
-            price: '$20.99',
-            title: 'Ocean with full of Colors',
-            destination: 'Maldives',
-            rating: '4.5',
-        },
-        {
-            id: 3,
-            image: unitedArabEmirates,
-            price: '$150.99',
-            title: 'Mountain View, Above the cloud',
-            destination: 'United Arab Emeries ',
-            rating: '5.0',
-        },
-        {
-            id: 4,
-            image: romeItaly,
-            price: '$550.16',
-            title: 'Paradise Beach, Bantayan Island',
-            destination: 'Rome, Italy',
-            rating: '4.8',
-        },
-        {
-            id: 5,
-            image: maldives,
-            price: '$20.99',
-            title: 'Ocean with full of Colors',
-            destination: 'Maldives',
-            rating: '4.5',
-        },
-        {
-            id: 6,
-            image: unitedArabEmirates,
-            price: '$150.99',
-            title: 'Mountain View, Above the cloud',
-            destination: 'United Arab Emeries ',
-            rating: '5.0',
-        },
-    ];
-
     return (
         <div className="w-full px-4 py-8">
             <div>
-                <Slider {...settings}>
-                    {slides.map((slide) => (
+                <Slider {...settingsDestinationSlide}>
+                    {slidesDestinations.map((slide) => (
                         <div key={slide.id}>
                             <div className="mx-4 my-8 flex h-[575px] flex-col gap-4 rounded-lg bg-white pb-0 shadow-lg">
                                 <img
