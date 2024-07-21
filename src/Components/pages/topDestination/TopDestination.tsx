@@ -2,11 +2,11 @@ import DestinationSlider from './DestinationSlider';
 
 function TopDestination() {
     return (
-        <section>
-            <div className="flex flex-col justify-start gap-1 pl-4 lg:translate-y-24">
-                <h2 className="align-baseline text-2xl font-bold text-secondary">
+        <section className="overflow-hidden">
+            <div className="text-center lg:translate-y-24 lg:pl-4 lg:text-start">
+                <p className="text-2xl font-bold text-secondary">
                     TOP DESTINATION
-                </h2>
+                </p>
                 <p className="text-4xl font-bold">Explore top destination</p>
             </div>
             <div>

@@ -10,6 +10,13 @@ export const settingsDestinationSlide: Settings = {
     slidesToShow: 3,
     slidesToScroll: 1,
 };
+export const settingsMobileDestinationSlide: Settings = {
+    focusOnSelect: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+};
 
 export const slidesDestinations = [
     {
@@ -57,7 +64,7 @@ export const slidesDestinations = [
         image: unitedArabEmirates,
         price: '$150.99',
         title: 'Mountain View, Above the cloud',
-        destination: 'United Arab Emeries ',
+        destination: 'United Arab Emirates ',
         rating: '5.0',
     },
 ];
