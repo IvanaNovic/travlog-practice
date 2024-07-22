@@ -57,7 +57,7 @@ function DestinationSlider() {
                             {slide.title}
                         </h2>
                     </div>
-                    <p className="text-left text-lg text-neutral">
+                    <p className="text-neutral-100 text-left text-lg">
                         {slide.destination}
                     </p>
                     <div className="flex flex-row gap-2">
@@ -75,7 +75,7 @@ function DestinationSlider() {
                 <div className="flex justify-center gap-8 lg:justify-end lg:pr-4">
                     <button
                         onClick={previous}
-                        className="shadow-customShadow flex h-16 w-16 rotate-180 items-center justify-center rounded-full bg-primary">
+                        className="flex h-16 w-16 rotate-180 items-center justify-center rounded-full bg-primary shadow-customShadow">
                         <img src={arrow} alt="Arrow left" />
                     </button>
                     <button
@@ -92,7 +92,7 @@ function DestinationSlider() {
                 <div className="flex justify-between px-4">
                     <button
                         onClick={previous}
-                        className="shadow-customShadow flex h-12 w-12 rotate-180 items-center justify-center rounded-full bg-primary">
+                        className="flex h-12 w-12 rotate-180 items-center justify-center rounded-full bg-primary shadow-customShadow">
                         <img src={arrow} alt="Arrow left" />
                     </button>
                     <button

@@ -7,11 +7,17 @@ function TravelPoint() {
                 alt="Woman sitting on suitcase"
                 className="lg:w-2/3 lg:-translate-x-5"
             />
-            <div className="flex -translate-x-5 flex-col gap-8 lg:w-1/3">
-                <div className="text-center lg:text-start">
-                    <h2 className="font-bold text-secondary">TRAVEL POINT</h2>
-                    <h1>We helping you find your dream location</h1>
-                    <p className="text-neutral">
+            <div className="flex flex-col gap-16 py-16 lg:w-1/3 lg:-translate-x-5">
+                <div className="flex flex-col gap-8 text-center lg:text-start">
+                    <div className="flex flex-col gap-4">
+                        <h2 className="font-2xl font-bold text-secondary">
+                            TRAVEL POINT
+                        </h2>
+                        <h1 className="text-3xl font-bold">
+                            We helping you find your dream location
+                        </h1>
+                    </div>
+                    <p className="text-neutral-100">
                         Contrary to popular belief, Lorem Ipsum is not simply
                         random text. It has roots in a piece of classical Latin
                         literature from 45 BC.
