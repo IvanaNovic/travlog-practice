@@ -7,7 +7,7 @@ export default {
             secondary: '#F85E9F',
             tertiary: '#191825',
             orange: '#FF5722',
-            neutral: '#19182580',
+            neutral: { 100: '#19182580', 200: '#1918251A' },
             gray: {
                 100: '#EEEEEE',
             },
