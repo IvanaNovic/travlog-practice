@@ -21,7 +21,7 @@ export default function Header() {
                 <Login />
                 <SignUp />
             </div>
-            <div className="order-2 hidden flex-1 justify-center gap-16 text-sm text-neutral lg:flex">
+            <div className="text-neutral-100 order-2 hidden flex-1 justify-center gap-16 text-sm lg:flex">
                 <HomeHeader />
                 <Discover />
                 <SpecialDeals />

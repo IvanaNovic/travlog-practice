@@ -65,7 +65,9 @@ function ServicesSlider() {
                                     <h2 className="text-xl font-bold">
                                         {slide.title}
                                     </h2>
-                                    <p className="text-neutral">{slide.text}</p>
+                                    <p className="text-neutral-100">
+                                        {slide.text}
+                                    </p>
                                 </div>
                             </div>
                         ))}
@@ -86,7 +88,7 @@ function ServicesSlider() {
                                 <h2 className="text-xl font-bold">
                                     {slide.title}
                                 </h2>
-                                <p className="text-neutral md:line-clamp-4">
+                                <p className="text-neutral-100 md:line-clamp-4">
                                     {slide.text}
                                 </p>
                             </div>
