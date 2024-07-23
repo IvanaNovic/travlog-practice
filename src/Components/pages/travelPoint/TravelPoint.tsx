@@ -1,5 +1,5 @@
 import travelPointImg from './../../../assets/travelPoint.svg';
-import ticket from './../../../assets/ticket.svg';
+
 function TravelPoint() {
     return (
         <section className="flex flex-col lg:flex-row">
@@ -11,10 +11,10 @@ function TravelPoint() {
             <div className="flex flex-col gap-16 py-16 lg:w-1/3">
                 <div className="flex flex-col gap-8 text-center lg:text-start">
                     <div className="flex flex-col gap-4">
-                        <h2 className="text-2xl font-bold text-secondary">
+                        <h2 className="text-lg font-bold text-secondary md:text-2xl">
                             TRAVEL POINT
                         </h2>
-                        <h1 className="text-4xl font-bold">
+                        <h1 className="text-3xl font-bold md:text-4xl">
                             We helping you find your dream location
                         </h1>
                     </div>
@@ -23,35 +23,30 @@ function TravelPoint() {
                         random text. It has roots in a piece of classical Latin
                         literature from 45 BC.
                     </p>
-                    <img
-                        src={ticket}
-                        alt="Ticket icon"
-                        className="absolute h-56 w-56"
-                    />
                 </div>
                 <div className="flex flex-col gap-4">
-                    <div className="flex flex-row gap-4">
-                        <div className="flex w-1/2 flex-col justify-center gap-4 rounded-lg border border-neutral-200 border-opacity-20 p-4 text-center">
+                    <div className="flex flex-col gap-4 md:flex-row">
+                        <div className="flex flex-col justify-center gap-4 rounded-lg border border-neutral-200 p-4 text-center md:w-1/2">
                             <h4 className="text-3xl font-bold text-orange">
                                 500+
                             </h4>
                             <p className="">Holiday Package</p>
                         </div>
-                        <div className="flex w-1/2 flex-col justify-center gap-4 rounded-lg border border-neutral-200 text-center">
+                        <div className="flex flex-col justify-center gap-4 rounded-lg border border-neutral-200 p-4 text-center md:w-1/2">
                             <h4 className="text-4xl font-bold text-orange">
                                 100
                             </h4>
                             <p className="">Luxury Hotel</p>
                         </div>
                     </div>
-                    <div className="flex flex-row gap-4">
-                        <div className="flex w-1/2 flex-col justify-center gap-4 rounded-lg border border-neutral-200 p-4 text-center">
+                    <div className="flex flex-col gap-4 md:flex-row">
+                        <div className="flex flex-col justify-center gap-4 rounded-lg border border-neutral-200 p-4 text-center md:w-1/2">
                             <h4 className="text-4xl font-bold text-orange">
                                 7
                             </h4>
                             <p className="">Premium Airlines</p>
                         </div>
-                        <div className="flex w-1/2 flex-col justify-center gap-4 rounded-lg border border-neutral-200 text-center">
+                        <div className="flex flex-col justify-center gap-4 rounded-lg border border-neutral-200 p-4 text-center md:w-1/2">
                             <h4 className="text-4xl font-bold text-orange">
                                 2k+
                             </h4>
