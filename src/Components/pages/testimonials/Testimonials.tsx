@@ -44,10 +44,10 @@ function Testimonials() {
         <div key={slide.id} className="p-4">
             <div className="flex flex-col items-center gap-4">
                 <div className="flex flex-col gap-4">
-                    <h2 className="text-center text-xl font-bold text-secondary md:text-2xl">
+                    <h2 className="text-center font-bold text-secondary md:text-2xl">
                         TESTIMONIALS
                     </h2>
-                    <p className="text-3xl font-bold md:text-4xl">
+                    <p className="text-2xl font-bold md:text-4xl">
                         Trust our clients
                     </p>
                 </div>
