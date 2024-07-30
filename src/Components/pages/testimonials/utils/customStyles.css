@@ -1,0 +1,24 @@
+.custom-dots li {
+    margin: 0 5px;
+}
+
+.custom-dots li button:before {
+    font-size: 12px;
+    color: #7f8287; /* Pink color for inactive dots */
+}
+
+.custom-dots li.slick-active button:before {
+    color: #ff69b4; /* Pink color for active dot */
+}
+
+.star-rating {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+}
