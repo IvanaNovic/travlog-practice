@@ -57,7 +57,7 @@ function DestinationSlider() {
                             {slide.title}
                         </h2>
                     </div>
-                    <p className="text-neutral-100 text-left text-lg">
+                    <p className="text-left text-lg text-neutral-100">
                         {slide.destination}
                     </p>
                     <div className="flex flex-row gap-2">
