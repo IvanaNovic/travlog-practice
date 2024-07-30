@@ -20,7 +20,7 @@ function HeroDescription() {
                     Travel <a className="text-secondary">top destination</a> of
                     the world
                 </p>
-                <p className="text-neutral flex flex-col text-center text-xs">
+                <p className="flex flex-col text-center text-xs text-neutral-100">
                     We always make our customer happy by providing as many
                     choices as possible
                 </p>

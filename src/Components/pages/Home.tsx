@@ -4,6 +4,7 @@ import Services from './sectionServices/Services';
 import TopDestination from './topDestination/TopDestination';
 import TravelPoint from './travelPoint/TravelPoint';
 import KeyFeatures from './keyFeatures/KeyFeatures';
+import Testimonials from './testimonials/Testimonials';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <TopDestination />
             <TravelPoint />
             <KeyFeatures />
+            <Testimonials />
         </>
     );
 };
