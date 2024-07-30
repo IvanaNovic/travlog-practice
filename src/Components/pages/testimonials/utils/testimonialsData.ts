@@ -9,12 +9,13 @@ export const settingsTestimonials: Settings = {
     slidesToScroll: 1,
     dots: true,
     dotsClass: 'slick-dots custom-dots',
+    arrows: false,
 };
 
 export const slidesTestimonials = [
     {
         id: 1,
-        name: 'John Doe',
+        name: 'John Doe ',
         occupation: 'Software Engineer',
         image: profilePic1,
         rating: 5,
@@ -23,10 +24,19 @@ export const slidesTestimonials = [
     },
     {
         id: 2,
-        name: 'Jane Smith',
+        name: 'Jane Smith ',
         occupation: 'Product Manager',
         image: profilePic1,
-        rating: 4.5,
+        rating: 4,
+        description:
+            'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.',
+    },
+    {
+        id: 3,
+        name: 'Jacob Roth ',
+        occupation: 'Product Manager',
+        image: profilePic1,
+        rating: 2,
         description:
             'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.',
     },
