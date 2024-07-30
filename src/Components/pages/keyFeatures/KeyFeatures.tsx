@@ -13,8 +13,10 @@ function KeyFeatures() {
             />
             <div className="flex flex-col gap-8 lg:w-1/2">
                 <div className="flex flex-col justify-center gap-4 text-center lg:text-start">
-                    <h2 className="font-bold text-secondary">KEY FEATURES</h2>
-                    <p className="text-3xl font-bold">We offer best services</p>
+                    <h2 className="font-bold text-secondary md:text-2xl">
+                        KEY FEATURES
+                    </h2>
+                    <p className="text-4xl font-bold">We offer best services</p>
                     <p className="text-neutral-100">
                         Contrary to popular belief, Lorem Ipsum is not simply
                         random text. It has roots in a piece of classical Latin

@@ -16,10 +16,10 @@ function HeroDescription() {
                 </button>
             </div>
             <div className="flex flex-col gap-4">
-                <p className="text-center text-4xl font-bold">
+                <h1 className="text-balance text-center text-4xl font-bold lg:text-6xl">
                     Travel <a className="text-secondary">top destination</a> of
                     the world
-                </p>
+                </h1>
                 <p className="flex flex-col text-center text-xs text-neutral-100">
                     We always make our customer happy by providing as many
                     choices as possible
